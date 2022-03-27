@@ -14,15 +14,14 @@ void merge(int start, int end){
 	int k = start;    // sorted 배열의 index
 
     // 비교하여 데이터 정렬 및 합병
-	while (i <= mid && j <= end)
-	{
+	while (i <= mid && j <= end) {
 		if (arr[i] <= arr[j]) {
-			sorted[k] = arr[i];
-            i++;
-        } else {
+			sorted[k] = arr[i]; 
+			i++;
+        	} else {
 			sorted[k] = arr[j];
-            j++;
-        } 
+           		j++;
+        	} 
         k++;
 	}
 
