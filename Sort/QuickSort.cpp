@@ -1,4 +1,4 @@
-// divide(분할) & conquer(정복)
+// conquer(정복) & divide(분할) --> 순환 호출이 이루어지기 전에 대부분의 작업이 수행
 // Time Complexity = O(nlogn), in-place Yes, Stable Yes or No
 
 #include<iostream>
