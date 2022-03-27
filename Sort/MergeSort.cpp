@@ -22,7 +22,7 @@ void merge(int start, int end){
 			sorted[k] = arr[j];
            		j++;
         	} 
-        k++;
+        	k++;
 	}
 
     // 남아 있는 데이터 정리
