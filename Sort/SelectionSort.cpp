@@ -1,4 +1,4 @@
-//Time Complexity = O(n^2), in-place No, Stable Yes
+//Time Complexity = O(n^2), in-place Yes, Stable No
 
 #include<iostream>
 using namespace std;
